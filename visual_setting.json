@@ -1,0 +1,164 @@
+{
+    "editor.fontSize": 16,
+    "editor.tabSize": 3,
+    "editor.lineHeight": 27, // change
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.iconTheme": "vscode-icons",
+    "liveServer.settings.donotVerifyTags": true,
+    "workbench.colorTheme": "Dracula",
+    /*---------------------------------------------change---------------------------------------------*/
+    "window.zoomLevel": 1,
+    "workbench.colorCustomizations": {
+        /*-------- original------------*/
+        // "sideBar.background": "#191a2e",
+        // "editor.background": "#191a2e",
+        // "terminal.background": "#191a2e",
+        // "panel.background": "#191a2e",
+        // "activityBar.background": "#191a2e",
+        /*----------------change---------------*/
+        "editor.background": "#242323",
+        "sideBar.background": "#242323",
+        "terminal.background": "#242323",
+        "panel.background": "#242323",
+        "activityBar.background": "#242323",
+        /*----------------end-change---------------*/
+        // "tab.activeBorderTop": "#8d92ff",
+        // "tab.inactiveBackground": "#191A22",
+        // "panelTitle.activeBorder": "#8d92ff",
+        // "panel.border": "#8d92ff",
+        // "tab.activeBackground": "#191a2e",
+        // "breadcrumb.background": "#191a2e",
+        // "sideBarSectionHeader.background": "#191a2e",
+        // "activityBarBadge.background": "#FF6BCB",
+        // "activityBar.activeBorder": "#FF6BCB",
+        // "titleBar.activeBackground": "#1E1F35",
+        // "terminal.ansiGreen": "#20e3b2",
+        // "terminal.ansiYellow": "#FDE181",
+        // "terminal.ansiMagenta": "#FF6BCB"
+    },
+    "editor.tokenColorCustomizations": {
+        "[Dracula]": {
+            "textMateRules": [
+                {
+                    "scope": [
+                        "entity.other.attribute-name",
+                        "entity.name.function",
+                        "support.function",
+                        "support.function.css",
+                        "support.function.transform.css",
+                        "entity.other.attribute-name.jsx",
+                        "entity.other.attribute-name.html"
+                    ],
+                    "settings": {
+                        "foreground": "#20e3b2",
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.graphql",
+                        "string",
+                        "punctuation.definition.string.begin",
+                        "punctuation.definition.string.end"
+                    ],
+                    "settings": {
+                        "foreground": "#e5c07b"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.tag",
+                        "keyword",
+                        "storage",
+                        "constant.numeric.css",
+                        "constant.length.units.css"
+                    ],
+                    "settings": {
+                        "foreground": "#FF6BCB"
+                    }
+                },
+                {
+                    "scope": [
+                        "keyword.other.unit.percentage.css",
+                        "keyword.other.unit.px.css",
+                        "keyword.other.unit.rem.css",
+                        "constant.length.units.css",
+                        "constant.percentage.units.css",
+                        "constant.time.units.css",
+                        "constant.angle.units.css"
+                    ],
+                    "settings": {
+                        "foreground": "#ff8ac4"
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.parameter",
+                        "variable.other.constant",
+                        // "support.variable",
+                        "constant",
+                        "support.type.property-name.media.css",
+                        "meta.property-values.css",
+                        "support.constant",
+                    ],
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#f8a042"
+                    }
+                },
+                {
+                    "scope": [
+                        "support.class.component"
+                    ],
+                    "settings": {
+                        "fontStyle": ""
+                    }
+                },
+                {
+                    "scope": [
+                        "variable.other.constant.object.js"
+                    ],
+                    "settings": {
+                        "foreground": "#bd93f9"
+                        // "fontStyle": "italic", "foreground": "#FFB86C"
+                    }
+                },
+                {
+                    "scope": [
+                        "entity.name.type.parameter"
+                    ],
+                    "settings": {
+                        "foreground": "#ffb86c"
+                    }
+                },
+                {
+                    "scope": [
+                        "support",
+                        "entity.name.type"
+                    ],
+                    "settings": {
+                        "foreground": "#2cccff"
+                    }
+                },
+                /*	text.html.derivative*/
+                {
+                    "scope": [
+                        "punctuation.definition.tag.end.html",
+                        "meta.tag.structure.head.end.html",
+                        "punctuation.definition.tag.begin.html",
+                        "source.css-ignored-vscode",
+                    ],
+                    "settings": {
+                        "foreground": "#bccbf8",
+                    }
+                }
+            ]
+        }
+    },
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+}
